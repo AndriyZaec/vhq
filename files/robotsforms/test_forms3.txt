@@ -1,0 +1,12 @@
+<div id='robotsform3'><div class='textarea_block'>
+			<div class='textarea_title'>Test domains</div>
+			<textarea name='domains3' rows='8' cols='30' placeholder='Введите список доменов через Еnter в формате visahq.'>https://demo.businessvisahq.com
+http://www.visahq.net/
+http://demo.visaheadquarters.com
+http://demo.visaheadquarters.co.uk</textarea>
+			</div>
+			<div class='textarea_block'>
+				  <div class='textarea_title2'>Test robot</div>
+				  <textarea name='robot3' rows='8' cols='50' placeholder='Введите текст робота через Еnter' style='float: left;'>User-agent: *
+Disallow: /</textarea><div style = 'background: url(images/delete.png) no-repeat; float: left; height:15px; width: 15px; margin-left: 5px; cursor: pointer;' onclick= window.location.href='?delete=3'></div></div>
+			<div style='clear:both'></div></div>

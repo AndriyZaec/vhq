@@ -1,0 +1,85 @@
+http://www.visahq.com/ = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fwww.visahq.com%2F&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      26 Errors, 6 warning(s)
+      
+    
+    </a><br>http://www.visahq.com/visas.php = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fwww.visahq.com%2Fvisas.php&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      61 Errors, 6 warning(s)
+      
+    
+    </a><br>http://www.visahq.com/about_us.php = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fwww.visahq.com%2Fabout_us.php&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      33 Errors, 6 warning(s)
+      
+    
+    </a><br>http://www.visahq.com/contact_us.php = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fwww.visahq.com%2Fcontact_us.php&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      45 Errors, 9 warning(s)
+      
+    
+    </a><br>http://www.visahq.com/news/ = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fwww.visahq.com%2Fnews%2F&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      5 Errors, 1 warning(s)
+      
+    
+    </a><br>http://www.visahq.com/news/coupons/ = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fwww.visahq.com%2Fnews%2Fcoupons%2F&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      8 Errors, 22 warning(s)
+      
+    
+    </a><br>http://www.visahq.com/partnership.php = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fwww.visahq.com%2Fpartnership.php&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      7 Errors, 1 warning(s)
+      
+    
+    </a><br>http://www.visahq.com/customs/ = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fwww.visahq.com%2Fcustoms%2F&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      43 Errors, 6 warning(s)
+      
+    
+    </a><br>http://www.visahq.com/embassy_row.php = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fwww.visahq.com%2Fembassy_row.php&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      43 Errors, 6 warning(s)
+      
+    
+    </a><br>http://www.visahq.com/travel_tools.php = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fwww.visahq.com%2Ftravel_tools.php&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      20 Errors, 1 warning(s)
+      
+    
+    </a><br>http://www.visahq.com/get_widget.php = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fwww.visahq.com%2Fget_widget.php&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      17 Errors, 5 warning(s)
+      
+    
+    </a><br>http://www.visahq.com/bookmarklets.php = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fwww.visahq.com%2Fbookmarklets.php&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      12 Errors, 1 warning(s)
+      
+    
+    </a><br>http://www.visahq.com/citizens/ = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fwww.visahq.com%2Fcitizens%2F&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      25 Errors, 1 warning(s)
+      
+    
+    </a><br>http://www.visahq.com/citizens/Albania/ = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fwww.visahq.com%2Fcitizens%2FAlbania%2F&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      25 Errors, 1 warning(s)
+      
+    
+    </a><br>http://www.visahq.com/fact-sheet.php = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fwww.visahq.com%2Ffact-sheet.php&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      19 Errors, 5 warning(s)
+      
+    
+    </a><br>http://www.visahq.com/timeline.php = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fwww.visahq.com%2Ftimeline.php&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      11 Errors, 1 warning(s)
+      
+    
+    </a><br>http://www.visahq.com/privacy.php = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fwww.visahq.com%2Fprivacy.php&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      17 Errors, 5 warning(s)
+      
+    
+    </a><br>http://www.visahq.com/terms_conditions.php = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fwww.visahq.com%2Fterms_conditions.php&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      17 Errors, 5 warning(s)
+      
+    
+    </a><br>http://belarus.visahq.com/ = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fbelarus.visahq.com%2F&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      80 Errors, 24 warning(s)
+      
+    
+    </a><br>http://panama.visahq.com/embassy/uganda/ = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fpanama.visahq.com%2Fembassy%2Fuganda%2F&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      24 Errors, 80 warning(s)
+      
+    
+    </a><br>http://panama.visahq.com/customs/ = <a href='http://validator.w3.org/check?uri=http%3A%2F%2Fpanama.visahq.com%2Fcustoms%2F&charset=%28detect+automatically%29&doctype=Inline&group=0&user-agent=W3C_Validator%2F1.3+http%3A%2F%2Fvalidator.w3.org%2Fservices'>
+      31 Errors, 46 warning(s)
+      
+    
+    </a><br>
