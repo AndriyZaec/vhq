@@ -1,4 +1,4 @@
-<?php 
+<?php
 function get_content($url,$advanced_options=array()){
 	$ch = curl_init();
 	$encUrl = $url;
@@ -76,12 +76,12 @@ function find_duplicate($ms){
 }
 function robots_ms($robots){
 	$ms=array_map(function($val){ 
-						if ($val!='') {
-							$val=trim($val);
-							return($val); 
-						}
+        if ($val!='') {
+            $val=trim($val);
+            return($val); 
+        }
 						
-					}, explode("\n", $robots));
+        }, explode("\n", $robots));
 	$ms=array_diff($ms,array(''));
 	sort($ms);
 	return $ms;
@@ -256,6 +256,7 @@ function robot_test ($domains, $robot, $mainform = 1) {
 
 function parse_filename ($filesarray) {
 	preg_match_all('/\d+/', $filesarray, $out);
+    $max=0;
 	for ($i=0; $i<=count($out, COUNT_RECURSIVE); $i++) {
 		if ($max < $out[0][$i]) {
 			$max = $out[0][$i];

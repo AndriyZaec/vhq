@@ -1,5 +1,10 @@
 <?php 
+ini_set('error_reporting', E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+
 include('header.php');
+include_once('include/function.php');
 $check_robots_result=array();
 //-meil start---
 $subject = "Visa coincidence robots"; //Тема
@@ -7,6 +12,7 @@ $file_url="files/robots_res.txt";
 //--mail end---
 $domains=file_get_contents('files/domains.txt');
 $robot=file_get_contents('files/robots.txt');
+trim($robot);
 if (isset($_POST['search'])) {
 	$domains=trim($_POST['domains']);
 	if ($_POST['robot']!='') {
@@ -25,7 +31,7 @@ if (isset($_POST['search'])) {
 		$robot_list=robots_ms($robot);
 		$domain_list=array('visahq.com');
 	}
-	elseif($domains!='' and $robot!=''){
+	elseif($domains!='' and $robot!=''){ 
 		$domain_list=explode("\n", $domains);
 		if (!in_array('visahq.com', $domain_list)) {
 				$domain_list[]='visahq.com';
@@ -33,56 +39,26 @@ if (isset($_POST['search'])) {
 		$robot_list=robots_ms($robot);
 	}
 	$count_domains=count($domain_list);
-	for ($i=0; $i<$count_domains; $i++) {
+	for ($i=0; $i<$count_domains; $i++) { 
 		$domain_list[$i]=trim($domain_list[$i]);
-		$http_robots_url="http://www.$domain_list[$i]/robots.txt";
-		$https_robots_url="https://www.$domain_list[$i]/robots.txt";
-		$get_visa_robots=file_get_contents($http_robots_url); #get_content($robots_url);
+		$robots_url="http://www.$domain_list[$i]/robots.txt";
+		$get_visa_robots=get_content($robots_url);
 		$visa_robots_ms=robots_ms($get_visa_robots);
 		// echo '<pre>';
 		// print_r($visa_robots_ms);
 		// echo '<pre>';
-		// if (count($http_robot_list)!=count($visa_robots_ms) and count($https_robot_list)!=count($visa_robots_ms) ) {
-		// 	$check_robots_result[$http_robots_url]='<span style=color:red>Не идентичны</span>';
-		// 	$check_robots_result[$https_robots_url]='<span style=color:red>Не идентичны</span>';
-		// }
-		// else{
-		// 	$http_tmp_res=array_diff($http_robot_list, $visa_robots_ms);
-		// 	$https_tmp_res=array_diff($https_robot_list, $visa_robots_ms);
-		// 	if (count($http_tmp_res)!=0 and count($https_tmp_res)!=0) {
-		// 		$check_robots_result[$http_robots_url]='<span style=color:red>Не идентичны</span>';
-		// 		$check_robots_result[$https_robots_url]='<span style=color:red>Не идентичны</span>';
-		// 	}
-		// 	else{
-		// 		$check_robots_result[$http_robots_url]='<span style=color:green>Идентичны</span>';
-		// 		$check_robots_result[$https_robots_url]='<span style=color:green>Идентичны</span>';
-		// 	}
-		// }
 		if (count($robot_list)!=count($visa_robots_ms)) {
-			$check_robots_result[$http_robots_url]='<span style=color:red>Не идентичны</span>';
+			$check_robots_result[$robots_url]='<span style=color:red>Не идентичны [error:page not available]</span>';
 		}
 		else{
 			$tmp_res=array_diff($robot_list, $visa_robots_ms);
 			if (count($tmp_res)!=0) {
-				$check_robots_result[$http_robots_url]='<span style=color:red>Не идентичны</span>';
+				$check_robots_result[$robots_url]='<span style=color:red>Не идентичны [error: http 302]</span>';
 			}
 			else{
-				$check_robots_result[$http_robots_url]='<span style=color:green>Идентичны</span>';
+				$check_robots_result[$robots_url]='<span style=color:green>Идентичны</span>';
 			}
 		}
-//		if (count($robot_list)!=count($visa_robots_ms)) {
-//			$check_robots_result[$https_robots_url]='<span style=color:red>Не идентичны</span>';
-//		}
-//		else{
-//			$tmp_res=array_diff($robot_list, $visa_robots_ms);
-//			if (count($tmp_res)!=0) {
-//				$check_robots_result[$https_robots_url]='<span style=color:red>Не идентичны</span>';
-//			}
-//			else{
-//				$check_robots_result[$https_robots_url]='<span style=color:green>Идентичны</span>';
-//			}
-//		}
-
 	}
 	arsort($check_robots_result);
 }
@@ -132,7 +108,11 @@ if (isset($_POST['search'])) {
 	<?php
 			}
 			fclose($f);
-			sendMail($to,$from_mail,$from_name,$subject,$message,$boundary,$filename,$file_url); 
+			try {
+                sendMail($to, $from_mail, $from_name, $subject, $message, $boundary, $filename, $file_url);
+            }catch(Exception $e){
+
+            }
 		}
 		
 	?>
